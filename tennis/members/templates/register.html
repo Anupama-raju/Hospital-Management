@@ -1,0 +1,31 @@
+{% comment %} {% extends 'home.html' %}
+
+{% load static %}
+
+{% block title %} Register {% endblock %}
+
+{% block content %}  
+
+<style>
+    form label {
+      display: block;
+      text-align: left;
+      margin-top: 25px; 
+      margin-bottom: 8px; 
+    }
+</style>
+
+<h2 class="text-center my-3"> REGISTRATION FORM </h2>
+<hr>
+<div  class="container text-center bg-white w-50 my-5 p-5">
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="Submit" class="btn btn-primary my-5">Register</button>
+    </form>   
+</div>
+
+
+{% endblock %}
+
+ {% endcomment %}
