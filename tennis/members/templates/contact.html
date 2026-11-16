@@ -3,6 +3,81 @@
 {% block title %} Contact {% endblock %}
 
 {% block content %}
-<h1 class="text-center my-3"> CONTACT US </h1>
+<h1 class="text-center my-3"> CONTACT </h1>
 <hr>
+<div class="w-75 mx-auto">
+    <div class="d-flex justify-content-center">
+        <form class="w-50 me-5">
+            <div class="mb-3 ">
+                <label for="fname" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputtext" placeholder="Enter your Name">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a valid email address">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">I accept the Terms of Service</label>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary w-50">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">CALL US</h5>
+                    <p class="card-text">+1 (555) 010-1234,<br>+1 (555) 010-2468</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">LOCATION</h5>
+                    <p class="card-text">250 Medical Center Drive,<br>Houston, Texas 77030,<br>United States.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Working Hours</h5>
+                    <p class="card-text">
+                        <b>Emergency Department :</b> 24 hours / 7 days a week <br>
+                        <b>Outpatient Department(OPD) :</b> Mon-Sat, 8:00AM-8:00PM<br>
+                        <b>Inpatient Services:</b> 24 hours / 7 days a week <br>
+                        <b>Sunday :</b> Emergency service only (OPD closed)
+                    </p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
+
+Emergency Department: 24 hours / 7 days a week
+
+Outpatient Department (OPD): Monday – Saturday, 8:00 AM – 8:00 PM
+
+Inpatient Services: 24 hours / 7 days a week
+
+Pharmacy: Monday – Sunday, 7:00 AM – 10:00 PM
+
+Laboratory: Monday – Saturday, 7:00 AM – 6:00 PM
+
+Sunday: Emergency services only (OPD closed)

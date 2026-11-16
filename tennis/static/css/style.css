@@ -32,8 +32,37 @@ form label {
       text-align: left;
       margin-top: 25px; 
       margin-bottom: 8px; 
-    }
+}
 
+.doc_image{
+    width:100%;                
+    height: 350px;
+    object-fit: cover; /*fills the image area without distortion, cropping some parts if necessary  */
+}
+
+/* -------------for index.html -------------
+
+img{
+    padding: 100px 10px;
+}*/
+
+.main{
+    padding: 100px 25px;
+}
+.ps{
+    padding: 200px 25px;
+}
+.huge{
+    font-size: 5rem;
+}
+.medium{
+    font-size: 2rem;
+}
+/* -------------for about.html ------------- 
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+} */
 /* additional style */
 /* div.dept{
   margin: auto;

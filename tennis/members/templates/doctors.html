@@ -8,7 +8,7 @@
 <div class="container text-center ">
     {% for x in doc %}
         <div class="card text-center my-5" style="width: 18rem; display: inline-block">
-        <img src="{{ x.image.url }}" class="card-img-top" alt="...">
+        <img src="{{ x.image.url }}" class="card-img-top doc_image" alt="...">
         <div class="card-body">
             <h5 class="card-title">Name : {{x.d_name }}</h5>
             <p class="card-text">Speciality : {{x.speciality }}</p>
