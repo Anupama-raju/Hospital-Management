@@ -58,6 +58,20 @@ img{
 .medium{
     font-size: 2rem;
 }
+
+/* -------------for booking.html ------------- */
+
+/* form p label {
+        display: block;
+        text-align: left;
+    }
+
+form p input,select {
+        width: 100%;
+    } */
+
+
+
 /* -------------for about.html ------------- 
 .justify{
     text-align: justify;

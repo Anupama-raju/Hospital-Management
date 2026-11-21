@@ -92,9 +92,6 @@ def weather(request):
 
 
 
-
-
-
 # def register(request):
 #     if request.method=="POST":
 #         form=Registration_form(request.POST)
@@ -107,3 +104,6 @@ def weather(request):
 #         'form':form
 #     }   
 #     return render(request,"register.html",f)
+
+
+
